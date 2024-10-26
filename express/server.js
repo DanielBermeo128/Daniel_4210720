@@ -1,6 +1,6 @@
 const express =require('express');
 const app = express(); // Crea una instancia de un aplicacion de express
-const PORT =3000;//Definimos el puerto que vamos a ocupar
+const PORT =3009;//Definimos el puerto que vamos a ocupar
 
 const routes = require('./index');//imoprta las rutas definidas
 app.use('/', routes);//usamos las ruras importadas
