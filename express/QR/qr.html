@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR de contacto</title>
+    <link rel="stylesheet" href="estilosQr.css">
+
+</head>
+<body>
+    <div class="form-container">
+        <h1>QR de Contacto</h1>
+        <label for="nombre">Ingresa tu nombre completo</label>
+        <input type="text" id="nombre" placeholder="Escriba aquí" />
+
+        <label for="correo">Ingresa tu correo electrónico</label>
+        <input type="text" id="correo" placeholder="Escriba aquí" />
+
+        <label for="numero">Ingresa tu número de teléfono</label>
+        <input type="text" id="numero" placeholder="Escriba aquí" />
+
+        <button onclick="generar()">Generar QR</button>
+
+        <!-- Contenedor para mostrar el QR -->
+        <div id="contenedor"></div>
+    </div>
+</body>
+<!-- Link para crear el QR -->
+<script src="appQr.js"></script>
+</html>

@@ -7,7 +7,7 @@ app.use('/', routes);//usamos las ruras importadas
 
 app.use(express.static('estilos'));
 app.use(express.static('Calculadora'));
-app.use(express.static('JS'));
+app.use(express.static('QR'));
 
 
 //Servidor

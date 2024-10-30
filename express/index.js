@@ -16,7 +16,7 @@ router.get('/informacion',(req,res)=>{
     res.sendFile(path.join(__dirname + "/about.html"));
 });
 router.get('/qr',(req,res)=>{
-    res.sendFile(path.join(__dirname + "/qr.html"));
+    res.sendFile(path.join(__dirname + "/QR/qr.html"));
 });
 router.get('/calculadora',(req,res)=>{
     res.sendFile(path.join(__dirname + "/Calculadora/Calculadora.html"));

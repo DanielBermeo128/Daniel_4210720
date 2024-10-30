@@ -11,5 +11,5 @@ function generar(){
     let qr = new Image();   
     let link = "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data="+ nombre + " | "+ correo + " | "+ numero;     
     qr.src= link;
-    QR.innerHTML = qr;
+    QR.appendChild(qr);
 }
