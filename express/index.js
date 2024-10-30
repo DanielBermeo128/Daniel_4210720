@@ -15,4 +15,10 @@ router.get('/formulario',(req,res)=>{
 router.get('/informacion',(req,res)=>{
     res.sendFile(path.join(__dirname + "/about.html"));
 });
+router.get('/qr',(req,res)=>{
+    res.sendFile(path.join(__dirname + "/qr.html"));
+});
+router.get('/calculadora',(req,res)=>{
+    res.sendFile(path.join(__dirname + "/Calculadora/Calculadora.html"));
+});
 module.exports = router; //Exportamos el enrutador

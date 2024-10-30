@@ -6,6 +6,9 @@ const routes = require('./index');//imoprta las rutas definidas
 app.use('/', routes);//usamos las ruras importadas
 
 app.use(express.static('estilos'));
+app.use(express.static('Calculadora'));
+app.use(express.static('JS'));
+
 
 //Servidor
 // Inicia el servidor y escucha en el puerto especificado
